@@ -10,14 +10,11 @@
     "pnpm": "please-use-npm"
   },
   "scripts": {
-    "postinstall": "npm run generate-favicons",
     "dev": "astro dev",
-    "prebuild": "move-file ./src/pages/pdf.astro ./src/pages/_pdf.astro && npm run generate-favicons",
     "build": "astro build",
     "postbuild": "move-file ./src/pages/_pdf.astro ./src/pages/pdf.astro",
     "preview": "astro preview",
     "generate-pdf": "ts-node scripts/generate-pdf.ts",
-    "generate-favicons": "ts-node scripts/generate-favicons.ts",
     "prettier:check": "prettier --check . --ignore-path .gitignore",
     "prettier:write": "prettier --write . --ignore-path .gitignore",
     "astro:check": "astro check",
@@ -27,7 +24,8 @@
   "dependencies": {
     "@floating-ui/dom": "1.4.4",
     "iconify-icon": "1.0.8",
-    "nanoid": "4.0.2"
+    "nanoid": "4.0.2",
+    "path": "0.12.7"
   },
   "devDependencies": {
     "@astrojs/image": "0.17.2",
