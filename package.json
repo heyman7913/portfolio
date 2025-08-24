@@ -12,7 +12,6 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "postbuild": "move-file ./src/pages/_pdf.astro ./src/pages/pdf.astro",
     "preview": "astro preview",
     "generate-pdf": "ts-node scripts/generate-pdf.ts",
     "prettier:check": "prettier --check . --ignore-path .gitignore",
