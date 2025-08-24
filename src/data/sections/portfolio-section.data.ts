@@ -48,7 +48,7 @@ const portfolioSectionData = {
         title: 'Technologies',
         tags: [reactNative(), expoGo(), geminiAPI(), supabase(), ragLLM()],
       },
-      links: [github({ url: '#' })],
+      links: [github({ url: 'https://github.com/heyman7913/Echoes' })],
     },
 
     {
@@ -114,7 +114,7 @@ const portfolioSectionData = {
         title: 'Technologies',
         tags: [javaScript()],
       },
-      links: [github({ url: '#' })],
+      links: [github({ url: 'https://github.com/heyman7913/SafeSNAP' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;
