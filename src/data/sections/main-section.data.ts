@@ -19,7 +19,7 @@ const mainSectionData = {
     {
       label: 'Resume',
       value: 'Click Me!',
-      url: 'https://drive.google.com/file/d/1QpN0DhIc_WDPh8REMssaD-XLGbA-cFkv/view?usp=sharing',
+      url: 'https://drive.google.com/file/d/14Cpq-H1mPh-DQFntxlF9raTmQUSCwpnI/view?usp=sharing',
     },
   ],
   description:
